@@ -1,4 +1,5 @@
 class Solution {
+
     public boolean containsDuplicate(int[] nums) {
 
       Set<Integer> set = new HashSet<>();
@@ -13,4 +14,10 @@ class Solution {
 
         
     }
+    
 }
+
+/*
+Utilize Set or Hashset as arraylist when arraylist is too slow / time exceeds the expectation
+Average runtime for hashSet is O(1).
+*/
