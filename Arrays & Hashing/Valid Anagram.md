@@ -6,19 +6,21 @@ class Solution {
        char[] tArr = t.toCharArray();
        Arrays.sort(sArr);
        Arrays.sort(tArr);
-
+       
        if(sArr.length != tArr.length) {
            return false;
        }
-
        for(int i =0; i < sArr.length; i++) {
            if(sArr[i] != tArr[i]) {
                return false;
            }
        }
-
        return true;
-   
     }
-    
 }
+
+/*
+Array functions: 
+to___Array();
+Arrays.sort(..) 
+*/
